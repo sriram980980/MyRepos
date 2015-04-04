@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MyConnection-Web.config Connection String" description="MyConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;Initial Catalog=EWCDB1;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\EWCDB1.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Ram\ Kumar\\documents\\visual\ studio\ 2012\\Projects\\EWC\\EWC\\obj\\Release\\Package\\PackageTmp\\Views\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyConnection']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Ram\ Kumar\\documents\\visual\ studio\ 2012\\Projects\\EWC\\EWC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyConnection']/@connectionString" />
+  </parameter>
+  <parameter name="ConnString-Web.config Connection String" description="ConnString Connection String used in web.config by the application to access the database." defaultValue="Data Source=127.0.0.1,3306; Initial Catalog=mydb; UID=root; pwd=root; Integrated Security=True;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Ram\ Kumar\\documents\\visual\ studio\ 2012\\Projects\\EWC\\EWC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ConnString']/@connectionString" />
+  </parameter>
+</parameters>
